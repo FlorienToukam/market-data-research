@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+01_Data/raw/
+01_Data/processed/
+07_Environment/
+08_QA/*.png
