@@ -1,0 +1,116 @@
+{
+  "plan_sha256": "87f63193dd53590f590b2d9bfc2b90b8158934359cb6cbb9873d3bba495c9911",
+  "files": [
+    {
+      "file": "01_Data/raw/optiver/stock_0_book.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/book_train.parquet/stock_id=0/c439ef22282f412ba39e9137a3fdabac.parquet",
+      "retrieved_utc": "2026-10-07T09:34:53.008388+00:00",
+      "bytes": 12983450,
+      "sha256": "e50b4d4e1fb9efcfb013391a9d99636c940dd57aeb6635c2f1134c80fe70c1ea",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 0,
+      "kind": "book",
+      "git_blob_sha1": "d7d2b1888ec17a1458726aa5cd45859c7ad84d86",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/optiver/stock_1_book.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/book_train.parquet/stock_id=1/31a1c5cd6d8546b383d10373db762236.parquet",
+      "retrieved_utc": "2026-10-07T09:34:53.901690+00:00",
+      "bytes": 22727206,
+      "sha256": "55241f674e1867ce71f5855c99810e884e410a41358002c75f6dedc63a672afa",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 1,
+      "kind": "book",
+      "git_blob_sha1": "648df629bf270df79b1501a2a3c4f17bff4e2985",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/optiver/stock_3_book.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/book_train.parquet/stock_id=3/ccc6d426f595409680d6f422ed911bee.parquet",
+      "retrieved_utc": "2026-10-07T09:34:54.693959+00:00",
+      "bytes": 20760334,
+      "sha256": "a19f47c569215466cc92c650f139163e4a741d5eacedc2f287b438dad85d66ee",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 3,
+      "kind": "book",
+      "git_blob_sha1": "e981a2ab756f08d34b2b184e61e9be49593368eb",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/optiver/stock_0_trade.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/trade_train.parquet/stock_id=0/ef805fd82ff54fadb363094e3b122ab9.parquet",
+      "retrieved_utc": "2026-10-07T09:34:53.733318+00:00",
+      "bytes": 953543,
+      "sha256": "1087b64877b8aaf05602ba523e92e83d4c64d30d8e850e8f006667cf533aa4d0",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 0,
+      "kind": "trade",
+      "git_blob_sha1": "c0d9c922586ed516ae7ca65a991bc00bf8e04fb4",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/optiver/stock_1_trade.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/trade_train.parquet/stock_id=1/170b39f1f7144bb3b4554aabc336106e.parquet",
+      "retrieved_utc": "2026-10-07T09:34:54.381699+00:00",
+      "bytes": 2187168,
+      "sha256": "d0898422095f2aec1f50821bb78bec1275d51aabd3b838da45b9d2db5fe247b2",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 1,
+      "kind": "trade",
+      "git_blob_sha1": "807eeee940277dd7fe8e4deae615ae631b195a91",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/optiver/stock_3_trade.parquet",
+      "url": "https://raw.githubusercontent.com/KenChiang1997/Optiver-Realized-Volatility-Prediction/c23a8f4feab7834106703d3e035a1fddc40234c4/trade_train.parquet/stock_id=3/e0843aaf024f49228b281081a2524b39.parquet",
+      "retrieved_utc": "2026-10-07T09:34:54.776151+00:00",
+      "bytes": 2298543,
+      "sha256": "d4721d717c2b515d30cbb0d6f832b9c5d64765dbc5da34cc6b183314225d3241",
+      "source": "Optiver Kaggle public data via third-party GitHub mirror",
+      "stock_id": 3,
+      "kind": "trade",
+      "git_blob_sha1": "7ce21d7f3a226d6fe6ace18782d84ffdfe56ae0e",
+      "original_source": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data"
+    },
+    {
+      "file": "01_Data/raw/etf/SPY_yahoo_snapshot.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=978307200&period2=1790812800&interval=1d&events=div%2Csplits",
+      "retrieved_utc": "2026-10-07T09:34:55.331306+00:00",
+      "bytes": 715475,
+      "sha256": "bd5b45cf3a8671eceedeae1c0e3e5463d3049ac0699996b500e7d972425ac5c6",
+      "source": "Yahoo Finance chart API snapshot",
+      "ticker": "SPY",
+      "first_date": "2001-01-02",
+      "last_date": "2026-09-30",
+      "rows": 6474,
+      "caveat": "Vendor-adjusted prices may be revised; cached raw snapshot is the reproducibility reference"
+    },
+    {
+      "file": "01_Data/raw/etf/QQQ_yahoo_snapshot.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=978307200&period2=1790812800&interval=1d&events=div%2Csplits",
+      "retrieved_utc": "2026-10-07T09:34:55.328666+00:00",
+      "bytes": 712293,
+      "sha256": "95598c1df454d9be10575d154d4ee3d1ffc8ed0b4a3cef7686538b59e929ea71",
+      "source": "Yahoo Finance chart API snapshot",
+      "ticker": "QQQ",
+      "first_date": "2001-01-02",
+      "last_date": "2026-09-30",
+      "rows": 6474,
+      "caveat": "Vendor-adjusted prices may be revised; cached raw snapshot is the reproducibility reference"
+    },
+    {
+      "file": "01_Data/raw/etf/IWM_yahoo_snapshot.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?period1=978307200&period2=1790812800&interval=1d&events=div%2Csplits",
+      "retrieved_utc": "2026-10-07T09:34:55.330141+00:00",
+      "bytes": 708731,
+      "sha256": "e523479dc3cfd96a44314389471beecbf65d81b74f037fe905b08ba913640b2a",
+      "source": "Yahoo Finance chart API snapshot",
+      "ticker": "IWM",
+      "first_date": "2001-01-02",
+      "last_date": "2026-09-30",
+      "rows": 6474,
+      "caveat": "Vendor-adjusted prices may be revised; cached raw snapshot is the reproducibility reference"
+    }
+  ]
+}
