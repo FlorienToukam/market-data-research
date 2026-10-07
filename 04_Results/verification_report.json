@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Research plan unchanged since data download",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_0_book.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_1_book.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_3_book.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_0_trade.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_1_trade.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: stock_3_trade.parquet",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: SPY_yahoo_snapshot.json",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: QQQ_yahoo_snapshot.json",
+      "result": "PASS"
+    },
+    {
+      "check": "Source checksum: IWM_yahoo_snapshot.json",
+      "result": "PASS"
+    },
+    {
+      "check": "All research scripts compile",
+      "result": "PASS"
+    },
+    {
+      "check": "Reserved model scores independently recalculated and validation-only choice confirmed",
+      "result": "PASS"
+    },
+    {
+      "check": "Raw record counts agree with parquet metadata",
+      "result": "PASS"
+    },
+    {
+      "check": "Order-book price levels and nonnegative sizes",
+      "result": "PASS",
+      "files": [
+        "stock_1_book.parquet",
+        "stock_0_book.parquet",
+        "stock_3_book.parquet"
+      ]
+    },
+    {
+      "check": "SQLite independent duplicate, split and missing-data checks",
+      "result": "PASS",
+      "results": {
+        "duplicate_feature_keys": 0,
+        "split_leakage_groups": 0,
+        "invalid_volatility_rows": 0,
+        "duplicate_etf_dates": 0
+      }
+    },
+    {
+      "check": "All nine strategy/benchmark ledgers and holdout CAGR/drawdown independently reconciled",
+      "result": "PASS"
+    }
+  ],
+  "completed_checks": 16,
+  "note": "Calculation checks are separate from the methodological limitations documented in the report."
+}

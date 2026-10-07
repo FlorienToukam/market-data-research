@@ -1,0 +1,4 @@
+stock_id,book_rows,trade_rows,book_duplicates,trade_duplicates,book_null_cells,trade_null_cells,crossed_quotes,nonpositive_prices,invalid_depth,invalid_trade_size,invalid_seconds,available_buckets,eligible_buckets,excluded_buckets,future_quote_perturbation_test
+0,917553,123443,0,0,0,0,0,0,0,0,0,3830,3828,2,PASS
+1,1507532,296210,0,0,0,0,0,0,0,0,0,3830,3830,0,PASS
+3,1269461,279290,0,0,0,0,0,0,0,0,0,3830,3830,0,PASS

@@ -1,0 +1,4 @@
+ticker,future_price_perturbation,independent_cash_units_ledger,independent_benchmark_ledgers,signal_execution_return_lag,toy_execution_fixture,max_ledger_wealth_difference_dollars
+SPY,PASS,PASS,PASS,PASS,PASS,9.313225746154785e-09
+QQQ,PASS,PASS,PASS,PASS,PASS,1.6763806343078613e-08
+IWM,PASS,PASS,PASS,PASS,PASS,1.6298145055770874e-09

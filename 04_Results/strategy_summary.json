@@ -1,0 +1,55 @@
+{
+  "primary_ticker": "SPY",
+  "held_out_start": "2020-01-02",
+  "held_out_end": "2026-09-30",
+  "held_out_metrics": {
+    "Trend filter": {
+      "observations": 1695,
+      "cagr": 0.10363673400791384,
+      "total_return": 0.9411398450386239,
+      "annualized_volatility": 0.12405680167444001,
+      "sharpe_zero_hurdle": 0.8572482292319547,
+      "max_drawdown": -0.23196854509662923,
+      "average_exposure": 0.7899705014749262,
+      "one_way_turnover": 42.98950524737631,
+      "fees_dollars": 8712.164586657804,
+      "entry_count": 21,
+      "exit_count": 22
+    },
+    "Buy and hold": {
+      "observations": 1695,
+      "cagr": 0.1529467859064968,
+      "total_return": 1.604599038177986,
+      "annualized_volatility": 0.20046573820097566,
+      "sharpe_zero_hurdle": 0.810608957915079,
+      "max_drawdown": -0.33717268745960105,
+      "average_exposure": 1.0,
+      "one_way_turnover": 1.0,
+      "fees_dollars": 515.689859688754,
+      "entry_count": 0,
+      "exit_count": 1
+    },
+    "50% ETF / 50% cash": {
+      "observations": 1695,
+      "cagr": 0.07890885932065705,
+      "total_return": 0.6667166489071232,
+      "annualized_volatility": 0.10023355770959488,
+      "sharpe_zero_hurdle": 0.8079888155045948,
+      "max_drawdown": -0.17981638002641953,
+      "average_exposure": 0.5,
+      "one_way_turnover": 4.025386672570818,
+      "fees_dollars": 550.499148693676,
+      "entry_count": 0,
+      "exit_count": 1
+    }
+  },
+  "annualized_mean_excess_return_95_block_bootstrap_ci": [
+    -0.1564542712742369,
+    0.04505106325296883
+  ],
+  "block_bootstrap_block_sessions": 20,
+  "annualization": 252,
+  "rule": "200-session price SMA, delayed one session, 5 bps one-way cost, zero cash interest",
+  "evaluation_type": "Historical chronological research holdout; not prospective live testing",
+  "parameter_selection": "No parameter selected using held-out results"
+}

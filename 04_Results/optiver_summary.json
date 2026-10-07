@@ -1,0 +1,70 @@
+{
+  "task": "Predict the second five-minute realized volatility from first-five-minute features; not the original competition's subsequent-ten-minute target",
+  "stock_ids": [
+    0,
+    1,
+    3
+  ],
+  "total_book_rows": 3694546,
+  "total_trade_rows": 698943,
+  "eligible_stock_buckets": 11488,
+  "unique_time_buckets": 3830,
+  "excluded_stock_buckets": 2,
+  "split_rows": {
+    "train": 8041,
+    "test": 1725,
+    "validation": 1722
+  },
+  "split_groups": {
+    "train": 2681,
+    "validation": 574,
+    "test": 575
+  },
+  "selected_model": "Ridge",
+  "test_baseline": {
+    "rmspe": 0.3422274511218956,
+    "rmse": 0.0014782276525967786,
+    "mae": 0.0008160421273717421,
+    "spearman": 0.8921183216346058,
+    "observations": 1725
+  },
+  "test_selected": {
+    "rmspe": 0.28667480158777303,
+    "rmse": 0.0010734011506140567,
+    "mae": 0.00069255214527847,
+    "spearman": 0.9054331268361514,
+    "observations": 1725
+  },
+  "test_calibrated_persistence": {
+    "rmspe": 0.29687499524540395,
+    "rmse": 0.0013157480240401512,
+    "mae": 0.0008878938536997459,
+    "spearman": 0.8921183216346058,
+    "observations": 1725
+  },
+  "test_rv_only_ridge": {
+    "rmspe": 0.29958504214955833,
+    "rmse": 0.0010950498855314557,
+    "mae": 0.0007177641707168176,
+    "spearman": 0.8931149973483093,
+    "observations": 1725
+  },
+  "persistence_calibration_train_only": 0.7749523740637839,
+  "relative_improvement_vs_calibrated_persistence": 0.034358547607551776,
+  "relative_improvement_vs_rv_only_ridge": 0.04309374216133352,
+  "relative_rmspe_improvement": 0.16232669048613424,
+  "group_bootstrap_improvement_95_ci": [
+    0.11723408501517103,
+    0.19964695073368358
+  ],
+  "group_bootstrap_calibrated_improvement_95_ci": [
+    -0.026057683053309612,
+    0.08643592458088918
+  ],
+  "group_bootstrap_rv_only_improvement_95_ci": [
+    0.00946528497281785,
+    0.07082351957878616
+  ],
+  "holdout_type": "Random unseen time-bucket groups; calendar ordering unavailable",
+  "causality": "Predictive association; no causal liquidity claim and no trading profit claim"
+}

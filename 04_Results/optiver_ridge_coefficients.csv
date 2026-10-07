@@ -1,0 +1,13 @@
+feature,standardized_log_target_coefficient
+numeric__log_rv_first,0.2190679159035623
+numeric__log_spread_bps,0.31906660597045783
+numeric__log_depth,-0.03159760128490249
+numeric__imbalance,-0.001419663342938467
+numeric__abs_imbalance,-0.006208380095122753
+numeric__log_quote_observations,0.06132458416181595
+numeric__log_trade_volume,0.010995379736055378
+numeric__log_trade_records,0.10202803591365724
+numeric__log_execution_count,0.013196775816694335
+stock__stock_id_0,-0.03981326830577489
+stock__stock_id_1,-0.008734309194042491
+stock__stock_id_3,0.048547577478781995

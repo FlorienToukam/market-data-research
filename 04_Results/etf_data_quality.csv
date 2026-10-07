@@ -1,0 +1,4 @@
+ticker,rows,start,end,null_cells,duplicate_dates,dividend_events_in_range,max_non_dividend_adjusted_return_difference_bps,max_dividend_adjusted_vs_simple_total_return_difference_bps
+SPY,6474,2001-01-02,2026-09-30,0,0,104,0.014505342774695507,2.520711338678261
+QQQ,6474,2001-01-02,2026-09-30,0,0,90,0.012313320176815523,0.7065993831345541
+IWM,6474,2001-01-02,2026-09-30,0,0,104,0.013258374433888775,1.2601943786161307
