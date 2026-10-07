@@ -11,6 +11,8 @@ import pyarrow.parquet as pq
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'04_Results'
+OUT.mkdir(parents=True, exist_ok=True)
+(ROOT/'07_Environment').mkdir(parents=True, exist_ok=True)
 
 def run():
     checks=[]
