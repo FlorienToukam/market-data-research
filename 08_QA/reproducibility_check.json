@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "result_files_compared": 23,
+  "changed_files": [],
+  "method": "Full RUN_ANALYSIS.command rerun against identical cached inputs"
+}
