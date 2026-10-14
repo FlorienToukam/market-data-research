@@ -77,4 +77,4 @@ This is a public-data research case completed in October 2026. All trades are si
 
 ## Use of AI
 
-ChatGPT helped reconstruct the workflow, develop and debug code, and organize the report. The source manifest, research settings and validation checks are included so the analysis can be inspected and rerun. This was an AI-assisted project, and the assistance went beyond editing the wording.
+ChatGPT helped reconstruct the workflow, develop and debug code, and organize the report. The source manifest, research settings and validation checks are included so the analysis can be inspected and rerun.
