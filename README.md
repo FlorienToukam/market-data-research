@@ -1,8 +1,8 @@
 # Market data research and trading strategy evaluation
 
-I studied two questions. Can order-book and trade data improve a forecast of short-horizon volatility? How does a simple trend rule change the balance between investment return and drawdown?
+I wanted to look at two things: how much an order book adds to a volatility forecast, and whether a simple trend rule is useful once lower drawdowns are weighed against lower returns. The results made the choice of benchmark especially important.
 
-The first study uses public Optiver records. The second uses dated SPY, QQQ and IWM prices. They are separate experiments. The volatility forecasts do not generate the ETF trades.
+The volatility study uses public Optiver quote and trade records. The strategy test uses SPY, QQQ and IWM prices. They are separate studies; the Optiver forecasts do not generate the ETF trades.
 
 ## Start here
 
@@ -46,7 +46,7 @@ Optiver time IDs are shuffled. All stocks sharing one time ID remain in the same
 
 The ETF test uses development, validation and later historical periods. The 200-session rule was fixed before examining its results. Additional costs, lookbacks, execution delays and QQQ/IWM comparisons are sensitivity checks. They do not replace the original rule with whichever variant looks best.
 
-I checked future-information isolation, independently reconciled portfolio accounting with a cash/units ledger, and recalculated performance metrics. A complete local rerun reproduced 23 principal result files from the same cached inputs.
+The checks cover future-information isolation, a separate cash/units ledger and recalculated performance metrics. A complete local rerun reproduced 23 principal result files from the same cached inputs.
 
 ## Reproduce the analysis
 
@@ -74,3 +74,7 @@ Generated features and the SQLite database go in `01_Data/processed`. Reports go
 - [Faber's moving-average research](https://mebfaber.com/2009/02/19/a-quantitative-approach-to-tactical-asset-allocation-updated/) for background. My daily timing and cost assumptions are different from the paper's monthly implementation.
 
 This is a public-data research case completed in October 2026. All trades are simulated. It does not represent employment at Optiver, an actual managed account or live investment performance.
+
+## Use of AI
+
+ChatGPT helped reconstruct the workflow, develop and debug code, and organize the report. The source manifest, research settings and validation checks are included so the analysis can be inspected and rerun. This was an AI-assisted project, and the assistance went beyond editing the wording.
